@@ -140,15 +140,6 @@ SysAdmins
 
 ---
 
-## 📸 Example Screenshots
-
-> Replace these with your own if documenting your setup.
-
-<p>
-  <img src="https://i.imgur.com/DJmEXEB.png" width="80%" alt="Email Settings Screenshot"/>
-</p>
-
----
 
 ## ✅ Final Checklist
 
