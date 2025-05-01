@@ -23,22 +23,23 @@ This document provides best practices and configuration steps immediately **afte
 
 ---
 
-### 2. Rename and Secure the `ost-config.php` File
+### 2. Configure "Roles" (for grouping permissions)
 
-- Navigate to: `C:\inetpub\wwwroot\osticket\include\ost-config.php`
-- Right-click → **Properties** → **Security**
-- Remove `Everyone` or change permissions to **Read Only** for IIS/IUSR
-
----
-
-### 3. Remove Setup Directory
-
-- Delete the `setup` folder from `C:\inetpub\wwwroot\osticket\`
-- This prevents re-installation or unauthorized access
+- Admin Panel _> Agents _> Roles
+- Supreme Admin
 
 ---
 
-## 📧 Email Configuration (SMTP & Fetching)
+### 3. Configure "Departments" (Ticket Visibility, Help Desk Vs SysAdmins, Vs Networking)
+
+-Admin Panel _> Agent _> Departments
+SysAdmins
+
+---
+### 4. Configure "Teams"
+
+- Admin Panel _> Agents _>Teams (Pulls agents from different Departments)
+- Online banking
 
 ### 1. Setup Outgoing Email (SMTP)
 
@@ -80,6 +81,9 @@ This document provides best practices and configuration steps immediately **afte
 
 - Admin Panel → **Manage** → **SLA Plans**
 - Create custom SLAs (e.g. "High Priority – 4hr response")
+- Sev-A (Grace Period: 1 hour, schedule: 24/7)
+- sev-B (Grace Period: 4 hours, schedule: 24/7)
+- Sev C (Grace Period: 8 hours, Business hours)
 
 ---
 
