@@ -18,12 +18,18 @@ This document provides best practices and configuration steps immediately **afte
 
 ### 1. Access the Admin Panel
 
+<img src="https://github.com/user-attachments/assets/73c330d5-9755-476a-a46c-c56a80c47619">
+
+
 - Go to: `http://localhost/osticket/scp/`
 - Login with the admin account created during installation
 
 ---
 
 ### 2. Configure "Roles" (for grouping permissions)
+
+<img src="https://github.com/user-attachments/assets/ae82d38d-a29c-4dac-a111-518a061536bd">
+
 
 - Admin Panel _> Agents _> Roles
 - Supreme Admin
@@ -32,11 +38,15 @@ This document provides best practices and configuration steps immediately **afte
 
 ### 3. Configure "Departments" (Ticket Visibility, Help Desk Vs SysAdmins, Vs Networking)
 
+<img src="https://github.com/user-attachments/assets/669855a1-79e3-48aa-9902-4034110a573d">
+
 -Admin Panel _> Agent _> Departments
 SysAdmins
 
 ---
 ### 4. Configure "Teams"
+
+<img src="https://github.com/user-attachments/assets/756f2c53-7d4c-4c3e-b604-8d92cd32a05d">
 
 - Admin Panel _> Agents _>Teams (Pulls agents from different Departments)
 - Online banking
